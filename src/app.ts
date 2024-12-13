@@ -96,7 +96,7 @@ app.post("/api/jobs", async (req: Request, res: Response, next: NextFunction) =>
 });
 
 app.get("/api/jobs/:jobId", (req, res) => {
-  res.send({ jobId: req.params.jobId + 5});
+  res.send({ jobId: req.params.jobId + 7});
 });
 
 app.listen(port, () => {
